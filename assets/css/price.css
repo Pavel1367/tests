@@ -11,6 +11,29 @@
   opacity:initial;
 }
 
+.panel.panel-default {
+  border-bottom:1px solid white;
+}
+
+.itmspr {
+  margin-left:10px;
+}
+
+.panel.panel-default {
+  border-bottom:1px solid white;
+}
+
+.panel.panel-default {
+  border-bottom:1px solid white;
+}
+
+.ite {
+}
+
+.footer-basic {
+  margin-top:-25px !important;
+}
+
 #price {
   padding:20px;
 }
@@ -27,6 +50,18 @@
 
 .btn.btn-link.btnback:hover {
   background-color:rgba(252,252,1,0.8);
+}
+
+@media (max-width:991px) {
+  .btn.btn-link.btnback {
+    margin-top:10px !important;
+  }
+}
+
+@media (max-width:767px) {
+  .btn.btn-link.btnback {
+    margin-left:-25px !important;
+  }
 }
 
 .btn.btn-link.btnback {
@@ -93,7 +128,7 @@ body {
 
 @media (max-width:767px) {
   .col-md-3 {
-    margin-left:60px !important;
+    margin-left:5px !important;
     margin-left:0;
     padding:45px;
   }
