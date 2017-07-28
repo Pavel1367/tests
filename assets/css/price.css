@@ -201,6 +201,12 @@ body {
 .panel.panel-default.items {
 }
 
+@media (max-width:767px) {
+  .movebut {
+    font-size:15px !important;
+  }
+}
+
 .pricetext {
   color:white;
 }
