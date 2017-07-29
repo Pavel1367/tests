@@ -93,25 +93,3 @@ img {
   color:white;
 }
 
-.panel.panel-default.items {
-  margin-bottom:0px;
-}
-
-[role=button] {
-  font-size:25px;
-}
-
-.movebut {
-  font-size:50px;
-}
-
-[role=button] {
-}
-
-.panel-default > .panel-heading {
-  margin-bottom:-8px;
-}
-
-.panel-title {
-}
-
