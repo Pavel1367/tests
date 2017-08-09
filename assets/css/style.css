@@ -5,23 +5,9 @@
   color:white;
 }
 
-.upperp {
-  margin-left:-10px;
-}
-
-.headh2 {
-  margin-left:10px !important;
-}
-
 @media (max-width:1199px) {
   .headh2 {
     margin-left:10px !important;
-  }
-}
-
-@media (max-width:767px) {
-  .headh2 {
-    margin-left:-15px !important;
   }
 }
 
