@@ -12,6 +12,10 @@
   opacity:initial;
 }
 
+h1 {
+  padding-left:20px !important;
+}
+
 .panel-body {
   background-color:#02027b !important;
 }
@@ -25,6 +29,18 @@
   border-radius:10px;
   padding:4px;
   border:1px solid yellow;
+}
+
+@media (max-width:767px) {
+  .movebut {
+    font-size:16px !important;
+  }
+}
+
+@media (max-width:767px) {
+  .movebut.movebut22 {
+    font-size:15px !important;
+  }
 }
 
 .panel.panel-default {
@@ -117,7 +133,6 @@ body {
 }
 
 .thumbnail {
-  box-shadow:1px 1px 20px rgba(255,255,255,0.51);
   background-color:rgba(4,4,4,0.48) !important;
   margin-bottom:50px !important;
   margin:0 auto;
@@ -199,12 +214,6 @@ body {
 }
 
 .panel.panel-default.items {
-}
-
-@media (max-width:767px) {
-  .movebut {
-    font-size:15px !important;
-  }
 }
 
 .pricetext {
