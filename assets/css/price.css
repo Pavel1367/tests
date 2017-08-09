@@ -47,20 +47,6 @@ h1 {
   border-bottom:1px solid white;
 }
 
-.footer-basic {
-  margin-top:20px !important;
-}
-
-.panel-heading {
-  margin-bottom:8px;
-}
-
-@media (max-width:767px) {
-  .movebut {
-    font-size:17px !important;
-  }
-}
-
 .itmspr {
   margin-left:10px;
 }

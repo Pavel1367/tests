@@ -5,17 +5,15 @@
   color:white;
 }
 
+.upperp {
+  margin-left:-10px;
+}
+
 .headh2 {
-  margin-left:8px !important;
+  margin-left:10px !important;
 }
 
 @media (max-width:1199px) {
-  .headh2 {
-    margin-left:10px !important;
-  }
-}
-
-@media (max-width:991px) {
   .headh2 {
     margin-left:10px !important;
   }
@@ -27,7 +25,10 @@
   }
 }
 
-.btn.btn-link.btn-lg {
+@media (max-width:991px) {
+  .headh2 {
+    margin-left:10px !important;
+  }
 }
 
 .features {
@@ -220,21 +221,15 @@ iframe {
   margin-left:10px;
 }
 
-@media (max-width:991px) {
-  .btn.btn-link.btn-lg {
-    margin-top:10px;
-  }
-}
-
 @media (max-width:767px) {
   .apple23 {
     margin-left:20px;
   }
 }
 
-@media (max-width:767px) {
+@media (max-width:991px) {
   .btn.btn-link.btn-lg {
-    font-size:15px !important;
+    margin-top:10px;
   }
 }
 
