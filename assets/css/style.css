@@ -17,6 +17,13 @@
   }
 }
 
+@media (max-width:767px) {
+  .headh2 {
+    padding-left:10px;
+    margin-left:15px !important;
+  }
+}
+
 .features {
   padding:10px;
 }
