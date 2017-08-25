@@ -4,6 +4,11 @@
   padding-bottom:30px;
 }
 
+.features h1 {
+  font-size:45px;
+  padding-left:0px !important;
+}
+
 @media (max-width:767px) {
   .features-clean {
     padding-bottom:10px;

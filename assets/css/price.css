@@ -274,18 +274,32 @@ li {
   background-color:white;
 }
 
-thead {
-  width:330px !important;
+.table-responsive {
+  text-align:left !important;
+  color:white !important;
+}
+
+@media (min-width:1200px) {
+  .afeach {
+    padding-left:55px !important;
+  }
+}
+
+@media (max-width:1199px) {
+  .afeach {
+    padding-left:55px !important;
+  }
+}
+
+@media (max-width:991px) {
+  .afeach {
+    padding-left:55px !important;
+  }
 }
 
 @media (max-width:767px) {
   .afeach {
     padding-left:15px !important;
   }
-}
-
-.table-responsive {
-  text-align:left;
-  color:white;
 }
 
