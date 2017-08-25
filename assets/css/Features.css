@@ -5,8 +5,8 @@
 }
 
 .features h1 {
-  margin-left:-15px;
-  font-size:45px;
+  margin-left:-15px !important;
+  font-size:45px !important;
   padding-left:0px !important;
 }
 
