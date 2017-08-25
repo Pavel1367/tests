@@ -62,10 +62,6 @@ h1 {
 .ite {
 }
 
-.footer-basic {
-  margin-top:-25px !important;
-}
-
 #price {
   padding:20px;
 }
@@ -191,12 +187,6 @@ body {
   border-color:#46b8da;
 }
 
-.panel-heading {
-}
-
-.panel-body {
-}
-
 #pricetable {
   text-align:center;
 }
@@ -222,14 +212,8 @@ body {
   border-top:none !important;
 }
 
-.panel.panel-default.items {
-}
-
 #pricetable {
   margin-bottom:50px !important;
-}
-
-.active.rollprice {
 }
 
 .rollprice {
