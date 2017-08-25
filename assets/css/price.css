@@ -229,7 +229,11 @@ body {
   border-bottom-right-radius:0 !important;
 }
 
+.rollprice {
+}
+
 .rollprice a {
+  font-size:20px !important;
   color:white;
 }
 
@@ -268,5 +272,20 @@ li {
   color:black;
   text-decoration:none;
   background-color:white;
+}
+
+thead {
+  width:330px !important;
+}
+
+@media (max-width:767px) {
+  .afeach {
+    padding-left:15px !important;
+  }
+}
+
+.table-responsive {
+  text-align:left;
+  color:white;
 }
 
