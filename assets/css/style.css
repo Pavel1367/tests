@@ -220,6 +220,15 @@ iframe {
   }
 }
 
+.nav.nav-tabs {
+  text-align:center;
+  margin:0 auto;
+}
+
+.tab-content {
+  text-align:center;
+}
+
 @media (max-width:991px) {
   .btn.btn-link.btn-lg {
     margin-top:10px;
@@ -230,5 +239,9 @@ iframe {
   .btn.btn-link.btn-lg {
     margin-top:10px;
   }
+}
+
+* {
+  font-family:'Comfortaa';
 }
 

@@ -76,6 +76,7 @@ h1 {
 
 @media (max-width:767px) {
   .jumbotron h1 {
+    font-family:'Anonymous Pro' !important;
     font-size:35px;
   }
 }
@@ -213,10 +214,67 @@ body {
   background-color:#02027b !important;
 }
 
+.panel-heading {
+  border-bottom:none !important;
+}
+
+.panel-body {
+  border-top:none !important;
+}
+
 .panel.panel-default.items {
+}
+
+#pricetable {
+  margin-bottom:50px !important;
+}
+
+.active.rollprice {
+}
+
+.rollprice {
+  border-bottom-left-radius:0 !important;
+  border-bottom-right-radius:0 !important;
+}
+
+.rollprice a {
+  color:white;
+}
+
+.rollspace:hover a {
+  color:black;
+}
+
+.active.rollprice a {
+  color:black !important;
+}
+
+li {
 }
 
 .pricetext {
   color:white;
+}
+
+@media (min-width:768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom:1px solid #ddd;
+    border-radius:4px 4px 0 0;
+  }
+}
+
+.nav-tabs.nav-justified > li > a {
+  margin-right:0;
+  border-radius:4px;
+}
+
+.nav-tabs > li > a:hover {
+  border-color:#eee #eee #ddd;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  color:black;
+  text-decoration:none;
+  background-color:white;
 }
 

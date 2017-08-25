@@ -93,3 +93,7 @@ img {
   color:white;
 }
 
+.nav-tabs.nav-justified > li > a {
+  font-size:14px;
+}
+
