@@ -70,15 +70,9 @@ h1 {
   padding:20px;
 }
 
-@media (max-width:991px) {
-  .jumbotron h1 {
-    margin-bottom:60px;
-    font-size:50px;
-  }
-}
-
 @media (max-width:767px) {
   .jumbotron h1 {
+    font-family:'Anonymous Pro' !important;
     font-size:35px;
   }
 }
@@ -235,11 +229,7 @@ body {
   border-bottom-right-radius:0 !important;
 }
 
-.rollprice {
-}
-
 .rollprice a {
-  font-size:20px !important;
   color:white;
 }
 
@@ -280,32 +270,11 @@ li {
   background-color:white;
 }
 
-.table-responsive {
-  text-align:left !important;
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
   color:white !important;
 }
 
-@media (min-width:1200px) {
-  .afeach {
-    padding-left:55px !important;
-  }
-}
-
-@media (max-width:1199px) {
-  .afeach {
-    padding-left:55px !important;
-  }
-}
-
-@media (max-width:991px) {
-  .afeach {
-    padding-left:55px !important;
-  }
-}
-
-@media (max-width:767px) {
-  .afeach {
-    padding-left:15px !important;
-  }
+.table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
+  text-align:left !important;
 }
 

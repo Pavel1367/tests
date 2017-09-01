@@ -4,10 +4,6 @@
   padding-bottom:30px;
 }
 
-.features h1 {
-  font-size:40px !important;
-}
-
 @media (max-width:767px) {
   .features-clean {
     padding-bottom:10px;
@@ -99,36 +95,5 @@ img {
 
 .nav-tabs.nav-justified > li > a {
   font-size:14px;
-}
-
-@media (min-width:1200px) {
-  .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
-    font-size:20px;
-  }
-}
-
-@media (max-width:1199px) {
-  .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
-    font-size:18px;
-  }
-}
-
-@media (max-width:991px) {
-  .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
-    font-size:15px;
-  }
-}
-
-@media (max-width:767px) {
-  .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
-    font-size:10px;
-  }
-}
-
-@media (max-width:767px) {
-  .jumbotron {
-    height:380px;
-    padding:20px 40px;
-  }
 }
 
