@@ -5,23 +5,12 @@
   color:white;
 }
 
-@media (max-width:1199px) {
-  .headh2 {
-    margin-left:10px !important;
-  }
+.feach h2 {
+  font-size:25px;
 }
 
-@media (max-width:991px) {
-  .headh2 {
-    margin-left:10px !important;
-  }
-}
-
-@media (max-width:767px) {
-  .headh2 {
-    padding-left:10px;
-    margin-left:15px !important;
-  }
+.headh2 {
+  color:white !important;
 }
 
 .features {
@@ -33,11 +22,6 @@
   margin-bottom:40px;
   font-size:40px !important;
   color:white;
-}
-
-.intro h2 {
-  margin-left:-15px;
-  font-size:40px;
 }
 
 .wtsicon {
@@ -56,12 +40,6 @@
 .contact {
   color:rgb(251,251,249);
   font-size:30px;
-}
-
-@media (max-width:767px) {
-  .apple23 {
-    margin-left:-8px !important;
-  }
 }
 
 .intro p {
@@ -130,21 +108,9 @@
   padding:50px;
 }
 
-.h1, h1 {
-  margin-bottom:50px;
-  font-weight:500;
-  margin-bottom:30px;
-  margin-top:60px;
-  font-size:60px;
-}
-
 hr {
   margin-top:-1px;
   border:1px solid yellow;
-}
-
-.row h2 {
-  font-size:20px;
 }
 
 .map-clean {
@@ -195,11 +161,6 @@ iframe {
   margin-top:100px;
 }
 
-.intro h2 {
-  color:white;
-  font-size:70px;
-}
-
 .row {
   margin-left:3px;
   width:99%;
@@ -214,12 +175,6 @@ iframe {
   margin-left:10px;
 }
 
-@media (max-width:767px) {
-  .apple23 {
-    margin-left:20px;
-  }
-}
-
 .nav.nav-tabs {
   text-align:center;
   margin:0 auto;
@@ -229,25 +184,11 @@ iframe {
   text-align:center;
 }
 
-@media (max-width:991px) {
-  .btn.btn-link.btn-lg {
-    margin-top:10px;
-  }
-}
-
-@media (max-width:767px) {
-  .btn.btn-link.btn-lg {
-    margin-top:10px;
-  }
-}
-
 * {
   font-family:'Comfortaa';
 }
 
-@media (min-width:1200px) {
-  .upperp {
-    margin-left:-25px !important;
-  }
+.contact {
+  display:inline;
 }
 

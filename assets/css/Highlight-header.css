@@ -105,3 +105,9 @@
   opacity:0.2;
 }
 
+@media (max-width:991px) {
+  .device {
+    margin-top:20px !important;
+  }
+}
+
