@@ -37,11 +37,6 @@
   background-color:#02027b;
 }
 
-.contact {
-  color:rgb(251,251,249);
-  font-size:30px;
-}
-
 .intro p {
   padding-left:20px;
 }
@@ -60,10 +55,6 @@
 
 .itm {
   font-size:30px;
-}
-
-.contact p {
-  font-size:20px;
 }
 
 .itemtop {
@@ -186,10 +177,5 @@ iframe {
 
 * {
   font-family:'Comfortaa';
-}
-
-.contact {
-  display:inline;
-  font-size:20px;
 }
 

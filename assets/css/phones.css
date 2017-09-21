@@ -1,47 +1,30 @@
-.fa.fa-phone-square {
-  float:left;
-  font-size:55px;
-  color:white;
-  display:inline-block !important;
-}
-
-.phones {
-  justify-content:center !important;
-  height:30px;
-  width:40%;
-  display:flex !important;
-}
-
-.phcol {
-  margin-left:17px;
-}
-
-.phone1 {
-  font-size:18px;
-  color:white;
-}
-
-.phone2 {
-  font-size:18px;
-  color:white;
-}
-
-.col-md-5.phonescolumn {
-  margin-top:-20px;
-}
-
 @media (max-width:991px) {
-  .phonesdiv {
-    margin-left:-10px;
-    margin-bottom:20px;
+  .col-md-5.phones {
+    margin-top:-30px;
+    margin-bottom:40px;
   }
 }
 
 @media (max-width:767px) {
-  .col-md-5.phonescolumn {
-    margin:0 auto;
-    margin-left:50px;
-    margin-bottom:30px;
+  .col-md-5.phones {
+    margin-top:-30px;
+    margin-bottom:40px;
   }
+}
+
+.col-md-5.phones {
+  font-size:50px;
+  color:white;
+  margin-top:-25px;
+  padding:5px;
+  display:inline-block;
+  justify-content:center;
+}
+
+.phonesdiv {
+  font-size:18px;
+  margin-left:5px;
+  display:inline-block;
+  justify-content:center;
 }
 
