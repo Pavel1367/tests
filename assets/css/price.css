@@ -191,12 +191,34 @@ li {
 }
 
 .jumbotron {
+  margin:0 auto;
+  width:70%;
   border-radius:20px;
   background-color:rgba(1,65,230,0.27);
-  height:350px;
+  height:80%;
+}
+
+@media (max-width:767px) {
+  .jumbotron {
+    width:90%;
+  }
 }
 
 .btn.btn-link.btnback {
-  margin-top:20px;
+  margin-top:30px;
+}
+
+@media (max-width:767px) {
+  .btn.btn-link.btnback {
+    margin-top:50px;
+    font-size:10px;
+    width:80%;
+  }
+}
+
+@media (max-width:767px) {
+  .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    font-size:10px;
+  }
 }
 
