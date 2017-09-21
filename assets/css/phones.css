@@ -1,0 +1,28 @@
+.fa.fa-phone {
+  float:left;
+  font-size:55px;
+  color:white;
+  display:inline-block !important;
+}
+
+.phones {
+  justify-content:center !important;
+  height:30px;
+  width:40%;
+  display:flex !important;
+}
+
+.phone1 {
+  font-size:18px;
+  color:white;
+}
+
+.phone2 {
+  font-size:18px;
+  color:white;
+}
+
+.col-md-5.phonescolumn {
+  margin-top:-20px;
+}
+

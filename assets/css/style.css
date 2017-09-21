@@ -37,23 +37,9 @@
   background-color:#02027b;
 }
 
-.phonesdiv {
-  margin-left:5px;
-  display:inline-block;
-  justify-content:center;
-}
-
-.contact1 {
-  font-size:17px;
-  width:70%;
-  color:rgb(251,251,249);
-  font-size:18px;
-}
-
 .contact {
-  width:70%;
   color:rgb(251,251,249);
-  font-size:18px;
+  font-size:30px;
 }
 
 .intro p {
@@ -198,33 +184,12 @@ iframe {
   text-align:center;
 }
 
-.fa.fa-phone-square {
-  font-size:50px;
-  color:white;
-}
-
 * {
   font-family:'Comfortaa';
 }
 
-.col-md-5.phones {
-  margin-top:-25px;
-  padding:5px;
-  display:inline-block;
-  justify-content:center;
-}
-
-@media (max-width:991px) {
-  .col-md-5.phones {
-    margin-top:-30px;
-    margin-bottom:40px;
-  }
-}
-
-@media (max-width:767px) {
-  .col-md-5.phones {
-    margin-top:-30px;
-    margin-bottom:40px;
-  }
+.contact {
+  display:inline;
+  font-size:20px;
 }
 
